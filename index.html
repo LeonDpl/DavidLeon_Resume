@@ -1,32 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Resume</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
-    <nav class="controls">
-      <div class="lang-switch">
-        <button onclick="loadResume('en')">English</button>
-        <button onclick="loadResume('fr')">Français</button>
-      </div>
-      <div class="options">
-        <label>
-          <input type="checkbox" id="togglePhoto" checked onchange="loadResume(currentLang)"> Show Photo
-        </label>
-        <button onclick="exportPDF()">Export PDF</button>
-      </div>
-    </nav>
+  <div class="main">
+    <div class="left-column">
+      <div class="profile-pic" id="photoContainer"></div>
+      <div class="contact-info" id="contact"></div>
+      <div class="skills" id="skills"></div>
+      <div class="interests" id="interests"></div>
+    </div>
+    <div class="right-column">
+      <div class="header" id="header"></div>
+      <div class="summary" id="summary"></div>
+      <div class="experience" id="experience"></div>
+      <div class="education" id="education"></div>
+    </div>
+  </div>
 
-    <main id="resume" class="card">
-      <!-- Resume content injected here -->
-    </main>
+  <div class="controls">
+    <button onclick="loadResume('en')">English</button>
+    <button onclick="loadResume('fr')">Français</button>
+    <label><input type="checkbox" id="togglePhoto" checked onchange="loadResume(currentLang)"> Show Photo</label>
+    <button onclick="exportPDF()">Export PDF</button>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
