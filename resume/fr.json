@@ -3,9 +3,12 @@
   "title": "Chef de projet technique en traitement de données industrielles",
   "photo": "photo.png",
   "contact": {
+    "name": "David Leon",
+    "address": "80 CHEMIN DES MIRABELLES, 26120 UPIE | Permis B",
     "email": "dpl.davidleon@gmail.com",
     "phone": "0632412749",
-    "linkedin": "https://www.linkedin.com/in/dpl-leon/"
+    "linkedin": "https://www.linkedin.com/in/dpl-leon/",
+    "github": "https://github.com/LeonDpl"
   },
   "labels": {
     "profile": "Profil Professionnel",
@@ -16,44 +19,77 @@
     "experience": "Parcours Professionnel",
     "education": "Formation"
   },
-  "summary": "Depuis plus de 10 ans, j'analyse les mesures capteurs de différents systèmes industriels et met en place les briques fonctionnelles permettant de construire et de mettre à disposition aux bonnes personnes et au bon moment des indicateurs métier de haute valeur ajoutée.",
+  "summary": "Depuis presque 15 ans, j'analyse les mesures capteurs de différents systèmes industriels et orchestre moyens techniques et humains afin de construire et de mettre à disposition des bonnes personnes, au bon moment, des indicateurs métier de haute valeur ajoutée.",
   "skills": [
-    "Python (Jupyter, pandas, scikit-learn, streamlit)",
-    "C#, SQL, JSON, XML",
-    "Grafana, RestAPI, Git, Docker",
-    "Traitement du signal et machine learning",
-    "Modélisation comportementale à partir des données",
-    "Analyse système (P&ID, AMDEC, HAZOP)",
-    "Gestion de projet technique en contexte international"
+    [
+      "Python (pandas, scikit-learn, streamlit), <br/>C#, SQL, JSON, XML",
+      "Grafana, RestAPI, Git, Docker",
+      "Traitement de données, apprentissage et modélisation de comportement",
+      "Analyse système (P&ID, AMDE, HAZOP)"
+    ],
+    [
+      "Capacité à mener un projet technique au sein d'une équipe multidisciplinaire en distanciel et en contexte international",
+      "Capacité à monter en compétences et à assurer la montée en compétences de mes collaborateurs"
+    ]
   ],
-  "languages": ["Français – Bilingue", "Anglais – Courant"],
+  "languages": [
+    { "name": "Français", "level": "Langue maternelle", "percent": 100 },
+    { "name": "Anglais", "level": "Professionnel", "percent": 80 }
+  ],
   "interests": [
-    "Président bénévole d'une association de parents d’élèves (depuis 2020)",
-    "Éducation et parentalité"
+    [
+      "Éducation et parentalité : 4 enfants, intervenant éveil scientifique enfants et adolescents"
+    ],
+    [
+      "Analyse et visualisation de données : Veille et prototypes de cas d'applications",
+      "Football : Pratique amateur puis loisirs depuis mon enfance"
+    ]
   ],
   "experience": [
     {
-      "company": "Predict",
-      "position": "Chef de projet technique",
+      "company": "iQanto - Predict",
+      "url" : "https://www.snef.fr/iqanto/",
+      "position": "Chef de projet technique (Département R&D)",
       "start": "Octobre 2019",
       "end": "Actuel",
+      "location": "Toulon",
+      "contract": "CDI",
       "details": [
-        "Définition, gestion du planning et répartition des tâches",
-        "Coordination des activités avec les parties prenantes",
-        "Succès : pérennisation d’une solution de suivi de centrale biomasse",
-        "Succès : transformation d’un PoC SATCOM en PoV déployé"
+        {"title": "Chef de projet technique (en complément de mon rôle d'ingénieur):",
+        "items": [
+          "Planification, répartition des tâches et gestion de projet",
+          "Coordination des parties prenantes pour atteindre les objectifs de qualité, coût et délais"
+        ]},
+        {
+            "title" : "Projets de R&D (nationnaux et européens) et PoC de secteurs variés, exemples:",
+            "items" : [
+                "Transport: Performance et surveillance moteurs, flotte de 10 porte conteneurs.",
+                "Industrie: Indicateurs de comportement moyens de production, industrie automobile."
+            ]
+        }
       ]
     },
     {
       "company": "Predict",
+      "url" : "https://www.predict.fr",
       "position": "Ingénieur d’étude traitement de données",
       "start": "Octobre 2013",
-      "end": "Actuel",
+      "end": "Octobre 2019",
       "details": [
-        "R&D, PoC pour transport, industrie, énergie",
-        "Détection d’anomalies pour flotte de 145 hélicoptères",
-        "Jumeau numérique de réseau électrique",
-        "Développement d’outils métier internes"
+        {
+            "title" : "Mise en oeuvre de solutions de maintenance proactive:",
+            "items" : [
+                "Aculturation, analyse technique, fonctionnelle et dysfonctionnelle",
+                "Algorithmie pour l'analyse, le traitement et la visualisation de données",
+                "Rédaction scientifique et technico-commerciale"
+            ]
+        },
+        {
+            "title" : "Amélioration continue, en interne:",
+            "items" : [
+                "Spécification, développement et/ou suivi de développement, tests et maintenance d'outils internes"
+            ]
+        }
       ]
     }
   ],
@@ -61,6 +97,7 @@
     {
       "school": "IPSA – Institut Polytechnique des Sciences Avancées",
       "degree": "Diplôme d’ingénieur Aéronautique et Spatial",
+      "url": "https://www.ipsa.fr/",
       "year": "2008 – 2013"
     }
   ]

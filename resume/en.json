@@ -1,6 +1,6 @@
 {
   "name": "David Leon",
-  "title": "Engineer with 10+ years of experience in industrial data processing",
+  "title": "Technical Project Manager in Industrial Data Processing",
   "photo": "photo.png",
   "contact": {
     "email": "dpl.davidleon@gmail.com",
@@ -16,54 +16,76 @@
     "experience": "Professional Experience",
     "education": "Education"
   },
-  "summary": "For over 10 years, I have been analyzing sensor data from industrial systems and building functional bricks that deliver high-value business indicators to the right people at the right time.",
+  "summary": "For nearly 15 years, I have been analyzing sensor measurements from various industrial systems and orchestrating technical and human resources to deliver high-value business indicators to the right people at the right time.",
   "skills": [
     [
-      "Python (Jupyter, pandas, scikit-learn, streamlit)",
-      "C#, SQL, JSON, XML",
+      "Python (pandas, scikit-learn, streamlit), <br/>C#, SQL, JSON, XML",
       "Grafana, RestAPI, Git, Docker",
-      "Signal processing and machine learning"
+      "Data processing, machine learning and behavior modeling",
+      "System analysis (P&ID, FMEA, HAZOP)"
     ],
     [
-      "Behavior modeling from data",
-      "System analysis (P&ID, FMEA, HAZOP)",
-      "Project management in international remote teams"
+      "Ability to lead technical projects within multidisciplinary and international remote teams",
+      "Ability to quickly acquire new skills and help colleagues grow their expertise"
     ]
   ],
-  "languages": ["French – Native", "English – Fluent"],
+  "languages": [
+    { "name": "French", "level": "Native", "percent": 100 },
+    { "name": "English", "level": "Fluent", "percent": 80 }
+  ],
   "interests": [
-    "Volunteer president of a parents' association (since 2020)",
-    "Education and parenting"
+    [
+      "Education and parenting: 4 children, science facilitator for children and teenagers"
+    ],
+    [
+      "Data analysis and visualization: Technology watch and prototyping of application cases",
+      "Football: Amateur and leisure practice since childhood"
+    ]
   ],
   "experience": [
     {
-      "company": "Predict",
-      "position": "Technical Project Manager",
+      "company": "iQanto - Predict",
+      "position": "Technical Project Manager (R&D Department)",
       "start": "October 2019",
       "end": "Present",
+      "location": "Toulon",
+      "contract": "Permanent",
       "details": [
-        "Planning, task distribution, and project management",
-        "Coordinating stakeholders to meet quality, cost, and timeline goals",
-        "Success: Sustained a biomass plant monitoring solution in an international context",
-        "Success: Turned a SATCOM PoC into a deployable PoV"
+        {
+          "title": "Technical project management (in addition to my engineering role):",
+          "items": [
+            "Planning, task allocation, and project management",
+            "Coordinating stakeholders to achieve quality, cost, and deadline objectives"
+          ]
+        },
+        {
+          "title": "R&D projects (national and European) and PoCs in various sectors, examples:",
+          "items": [
+            "Transport: Engine performance and monitoring, fleet of 10 container ships.",
+            "Industry: Production means behavior indicators, automotive industry."
+          ]
+        }
       ]
     },
     {
       "company": "Predict",
       "position": "Data Processing Engineer",
       "start": "October 2013",
-      "end": "Present",
+      "end": "October 2019",
       "details": [
-        "R&D and PoC projects in transport, industry, and energy",
-        "Anomaly detection for 145 helicopter fleet",
-        "Digital twin for power grid",
-        "Internal development of business tools"
+        {
+          "title": "Implementation of proactive maintenance solutions:",
+          "items": [
+            "Awareness, technical, functional and failure analysis"
+          ]
+        }
       ]
     }
   ],
   "education": [
     {
-      "school": "IPSA – Institute of Advanced Aeronautics and Space Science",
+      "school": "IPSA – Institut Polytechnique des Sciences Avancées",
+      "url": "https://www.ipsa.fr/",
       "degree": "Engineering Degree in Aerospace",
       "year": "2008 – 2013"
     }
