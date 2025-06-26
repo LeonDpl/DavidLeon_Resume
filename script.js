@@ -12,7 +12,7 @@ async function loadResume(lang) {
   `;
 
   if (showPhoto && data.photo) {
-    document.getElementById('photoContainer').innerHTML = `<img src="${data.photo}" alt="Profile Photo">`;
+    document.getElementById('photoContainer').innerHTML = `<div class="profile-pic"><img src="${data.photo}" alt="Profile Photo"></div>`;
   } else {
     document.getElementById('photoContainer').innerHTML = '';
   }
