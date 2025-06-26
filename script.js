@@ -163,12 +163,12 @@ function renderTwoColumnList(sectionId, label, items) {
 function exportPDF() {
   const element = document.querySelector('.main');
   const opt = {
-    margin: 0.2,
+    margin: [0, 0],
     filename: `resume-${currentLang}.pdf`,
     image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2 },
-    jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' },
-    pagebreak: { mode: ['avoid-all'] } // <--- Add this line
+    html2canvas: { scale: 2, useCORS: true, scrollY: 0 },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
+    pagebreak: { mode: ['avoid-all'] }
   };
   html2pdf().from(element).set(opt).save();
 }
@@ -176,10 +176,7 @@ function exportPDF() {
 // Example for rendering section labels with arrow icon
 function sectionLabel(label) {
   return `
-    <span class="section-label">
-      <svg viewBox="0 0 12 12"><path d="M2.5 10.5c.13.12.34.12.47 0l4.5-4.25a.33.33 0 0 0 0-.5l-4.5-4.25a.33.33 0 0 0-.47.5l4.02 3.8a.33.33 0 0 1 0 .5l-4.02 3.8a.33.33 0 0 0 0 .5z" fill="#336"/></svg>
-      ${label}
-    </span>
+    <span class="section-label">${label}</span>
   `;
 }
 
