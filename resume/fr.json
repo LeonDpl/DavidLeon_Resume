@@ -1,0 +1,25 @@
+{
+  "name": "Jane Doe",
+  "title": "Frontend Developer",
+  "contact": {
+    "email": "jane@example.com",
+    "phone": "+1 234 567 8900",
+    "linkedin": "https://linkedin.com/in/janedoe"
+  },
+  "photo": "photo.jpg",
+  "summary": "Creative developer passionate about UX.",
+  "skills": ["React", "JavaScript", "CSS"],
+  "experience": [{
+    "company": "Company Inc.",
+    "position": "Developer",
+    "start": "Jan 2022",
+    "end": "Present",
+    "details": ["Built dashboard", "Refactored frontend"]
+  }],
+  "education": [{
+    "school": "University X",
+    "degree": "BSc CS",
+    "year": "2018 - 2021"
+  }],
+  "interests": ["Design", "Gaming"]
+}
