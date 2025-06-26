@@ -11,7 +11,7 @@ async function loadResume(lang) {
 function renderResume(data, showPhoto) {
   const resume = document.getElementById('resume');
   resume.innerHTML = `
-    <div style="display:flex; gap: 20px; align-items:center">
+    <div style="display:flex; gap: 20px; align-items:center; margin-bottom: 20px;">
       ${showPhoto && data.photo ? `<img src="${data.photo}" alt="photo">` : ''}
       <div>
         <h1>${data.name}</h1>
@@ -48,5 +48,4 @@ function exportPDF() {
   html2pdf().from(element).set(opt).save();
 }
 
-// Initial load
 document.addEventListener('DOMContentLoaded', () => loadResume('en'));
