@@ -15,7 +15,7 @@
       <button onclick="loadResume('en')">English</button>
       <button onclick="loadResume('fr')">Français</button>
       <label><input type="checkbox" id="togglePhoto" checked onchange="loadResume(currentLang)"> Show Photo</label>
-      <button onclick="exportPDF()">Export PDF</button>
+      <button onclick="window.print()">Export PDF</button>
     </div>
   </div>
   <div class="main single-column">
@@ -32,7 +32,8 @@
     <section class="row" id="interests"></section>
   </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <!-- Optionally add Paged.js for better print styling -->
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
