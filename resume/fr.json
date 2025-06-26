@@ -1,25 +1,67 @@
 {
-  "name": "Jane Doe",
-  "title": "Frontend Developer",
-  "contact": {
-    "email": "jane@example.com",
-    "phone": "+1 234 567 8900",
-    "linkedin": "https://linkedin.com/in/janedoe"
-  },
+  "name": "David Leon",
+  "title": "Ingénieur en traitement de données industrielles",
   "photo": "photo.jpg",
-  "summary": "Creative developer passionate about UX.",
-  "skills": ["React", "JavaScript", "CSS"],
-  "experience": [{
-    "company": "Company Inc.",
-    "position": "Developer",
-    "start": "Jan 2022",
-    "end": "Present",
-    "details": ["Built dashboard", "Refactored frontend"]
-  }],
-  "education": [{
-    "school": "University X",
-    "degree": "BSc CS",
-    "year": "2018 - 2021"
-  }],
-  "interests": ["Design", "Gaming"]
+  "contact": {
+    "email": "dpl.davidleon@gmail.com",
+    "phone": "0632412749",
+    "linkedin": "https://www.linkedin.com/in/dpl-leon/"
+  },
+  "labels": {
+    "profile": "Profil Professionnel",
+    "contact": "Contact",
+    "skills": "Compétences",
+    "languages": "Langues",
+    "interests": "Centres d’intérêt",
+    "experience": "Parcours Professionnel",
+    "education": "Formation"
+  },
+  "summary": "Depuis plus de 10 ans, j'analyse les mesures capteurs de systèmes industriels et conçois des solutions permettant de générer des indicateurs métier à forte valeur ajoutée, disponibles en temps réel pour les décideurs.",
+  "skills": [
+    "Python (Jupyter, pandas, scikit-learn, streamlit)",
+    "C#, SQL, JSON, XML",
+    "Grafana, RestAPI, Git, Docker",
+    "Traitement du signal et machine learning",
+    "Modélisation comportementale à partir des données",
+    "Analyse système (P&ID, AMDEC, HAZOP)",
+    "Gestion de projet technique en contexte international"
+  ],
+  "languages": ["Français – Bilingue", "Anglais – Courant"],
+  "interests": [
+    "Président bénévole d'une association de parents d’élèves (depuis 2020)",
+    "Éducation et parentalité"
+  ],
+  "experience": [
+    {
+      "company": "Predict",
+      "position": "Chef de projet technique",
+      "start": "Octobre 2019",
+      "end": "Actuel",
+      "details": [
+        "Définition, gestion du planning et répartition des tâches",
+        "Coordination des activités avec les parties prenantes",
+        "Succès : pérennisation d’une solution de suivi de centrale biomasse",
+        "Succès : transformation d’un PoC SATCOM en PoV déployé"
+      ]
+    },
+    {
+      "company": "Predict",
+      "position": "Ingénieur d’étude traitement de données",
+      "start": "Octobre 2013",
+      "end": "Actuel",
+      "details": [
+        "R&D, PoC pour transport, industrie, énergie",
+        "Détection d’anomalies pour flotte de 145 hélicoptères",
+        "Jumeau numérique de réseau électrique",
+        "Développement d’outils métier internes"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "IPSA – Institut Polytechnique des Sciences Avancées",
+      "degree": "Diplôme d’ingénieur Aéronautique et Spatial",
+      "year": "2008 – 2013"
+    }
+  ]
 }

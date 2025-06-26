@@ -12,14 +12,14 @@ async function loadResume(lang) {
   `;
 
   document.getElementById('summary').innerHTML = `
-    <h2>Profile</h2>
+    <h2>${data.labels.profile}</h2>
     <p>${data.summary}</p>
   `;
 
   document.getElementById('contact').innerHTML = `
-    <h2>Contact</h2>
-    <p>Email: ${data.contact.email}</p>
-    <p>Phone: ${data.contact.phone}</p>
+    <h2>${data.labels.contact}</h2>
+    <p>${data.contact.email}</p>
+    <p>${data.contact.phone}</p>
     <p><a href="${data.contact.linkedin}" target="_blank">LinkedIn</a></p>
   `;
 
@@ -30,27 +30,32 @@ async function loadResume(lang) {
   }
 
   document.getElementById('skills').innerHTML = `
-    <h2>Skills</h2>
+    <h2>${data.labels.skills}</h2>
     <ul>${data.skills.map(skill => `<li>${skill}</li>`).join('')}</ul>
   `;
 
+  document.getElementById('languages').innerHTML = `
+    <h2>${data.labels.languages}</h2>
+    <ul>${data.languages.map(lang => `<li>${lang}</li>`).join('')}</ul>
+  `;
+
   document.getElementById('interests').innerHTML = `
-    <h2>Interests</h2>
+    <h2>${data.labels.interests}</h2>
     <ul>${data.interests.map(interest => `<li>${interest}</li>`).join('')}</ul>
   `;
 
   document.getElementById('experience').innerHTML = `
-    <h2>Experience</h2>
+    <h2>${data.labels.experience}</h2>
     ${data.experience.map(exp => `
       <div>
-        <strong>${exp.position}</strong> at ${exp.company}<br>
+        <strong>${exp.position}</strong> - ${exp.company}<br>
         <em>${exp.start} - ${exp.end}</em>
         <ul>${exp.details.map(d => `<li>${d}</li>`).join('')}</ul>
       </div>`).join('')}
   `;
 
   document.getElementById('education').innerHTML = `
-    <h2>Education</h2>
+    <h2>${data.labels.education}</h2>
     ${data.education.map(ed => `<p><strong>${ed.degree}</strong> - ${ed.school} (${ed.year})</p>`).join('')}
   `;
 }

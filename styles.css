@@ -26,10 +26,10 @@ body {
   border-radius: 50%;
   margin-bottom: 20px;
 }
-.contact-info, .skills, .interests {
+.contact-info, .skills, .interests, .languages {
   margin-bottom: 30px;
 }
-.skills ul, .interests ul {
+.skills ul, .interests ul, .languages ul {
   padding-left: 20px;
 }
 .controls {

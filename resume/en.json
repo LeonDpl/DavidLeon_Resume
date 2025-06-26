@@ -1,25 +1,67 @@
 {
-  "name": "Jane Doe",
-  "title": "Frontend Developer",
-  "contact": {
-    "email": "jane@example.com",
-    "phone": "+1 234 567 8900",
-    "linkedin": "https://linkedin.com/in/janedoe"
-  },
+  "name": "David Leon",
+  "title": "Engineer with 10+ years of experience in industrial data processing",
   "photo": "photo.jpg",
-  "summary": "Creative developer passionate about UX.",
-  "skills": ["React", "JavaScript", "CSS"],
-  "experience": [{
-    "company": "Company Inc.",
-    "position": "Developer",
-    "start": "Jan 2022",
-    "end": "Present",
-    "details": ["Built dashboard", "Refactored frontend"]
-  }],
-  "education": [{
-    "school": "University X",
-    "degree": "BSc CS",
-    "year": "2018 - 2021"
-  }],
-  "interests": ["Design", "Gaming"]
+  "contact": {
+    "email": "dpl.davidleon@gmail.com",
+    "phone": "0632412749",
+    "linkedin": "https://www.linkedin.com/in/dpl-leon/"
+  },
+  "labels": {
+    "profile": "Professional Profile",
+    "contact": "Contact",
+    "skills": "Skills",
+    "languages": "Languages",
+    "interests": "Interests",
+    "experience": "Professional Experience",
+    "education": "Education"
+  },
+  "summary": "For over 10 years, I have been analyzing sensor data from industrial systems and building functional bricks that deliver high-value business indicators to the right people at the right time.",
+  "skills": [
+    "Python (Jupyter, pandas, scikit-learn, streamlit)",
+    "C#, SQL, JSON, XML",
+    "Grafana, RestAPI, Git, Docker",
+    "Signal processing and machine learning",
+    "Behavior modeling from data",
+    "System analysis (P&ID, FMEA, HAZOP)",
+    "Project management in international remote teams"
+  ],
+  "languages": ["French – Native", "English – Fluent"],
+  "interests": [
+    "Volunteer president of a parents' association (since 2020)",
+    "Education and parenting"
+  ],
+  "experience": [
+    {
+      "company": "Predict",
+      "position": "Technical Project Manager",
+      "start": "October 2019",
+      "end": "Present",
+      "details": [
+        "Planning, task distribution, and project management",
+        "Coordinating stakeholders to meet quality, cost, and timeline goals",
+        "Success: Sustained a biomass plant monitoring solution in an international context",
+        "Success: Turned a SATCOM PoC into a deployable PoV"
+      ]
+    },
+    {
+      "company": "Predict",
+      "position": "Data Processing Engineer",
+      "start": "October 2013",
+      "end": "Present",
+      "details": [
+        "R&D and PoC projects in transport, industry, and energy",
+        "Anomaly detection for 145 helicopter fleet",
+        "Digital twin for power grid",
+        "Internal development of business tools"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "school": "IPSA – Institute of Advanced Aeronautics and Space Science",
+      "degree": "Engineering Degree in Aerospace",
+      "year": "2008 – 2013"
+    }
+  ]
 }
