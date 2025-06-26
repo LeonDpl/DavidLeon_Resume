@@ -12,9 +12,9 @@ body {
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 .row {
-  margin-bottom: 40px;
+  margin-bottom: -10px;
   border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .row:last-child {
   border-bottom: none;
@@ -35,4 +35,54 @@ body {
 .controls button, .controls input[type="checkbox"] {
   margin: 0 5px;
   padding: 8px 12px;
+}
+.header-row {
+  display: flex;
+  align-items: center;
+  gap: 2rem; /* Adjust spacing as needed */
+}
+#photoContainer {
+  flex: 0 0 auto;
+}
+#header {
+  flex: 1 1 0;
+}
+.skills-columns {
+  display: flex;
+  gap: 2rem;
+}
+.skills-columns ul {
+  flex: 1;
+  list-style: disc inside;
+  margin: 0;
+  padding: 0 1rem 0 0;
+}
+.name-uppercase {
+  text-transform: uppercase;
+  font-size: 2.2em;    /* Larger font size for name */
+  font-weight: 700;
+  margin-bottom: 0.2em;
+}
+
+#header h2 {
+  font-size: 1.2em;    /* Smaller font size for title */
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.contact-inline {
+  color: #888;
+  font-size: 0.9em;
+  font-variant: small-caps;
+  margin-top: 0.5em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.contact-inline a.linkedin-logo {
+  color: #888;
+  text-decoration: none;
+  margin-left: 0.3em;
+  vertical-align: middle;
 }

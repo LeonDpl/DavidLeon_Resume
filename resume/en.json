@@ -1,7 +1,7 @@
 {
   "name": "David Leon",
   "title": "Engineer with 10+ years of experience in industrial data processing",
-  "photo": "photo.jpg",
+  "photo": "photo.png",
   "contact": {
     "email": "dpl.davidleon@gmail.com",
     "phone": "0632412749",
@@ -18,13 +18,17 @@
   },
   "summary": "For over 10 years, I have been analyzing sensor data from industrial systems and building functional bricks that deliver high-value business indicators to the right people at the right time.",
   "skills": [
-    "Python (Jupyter, pandas, scikit-learn, streamlit)",
-    "C#, SQL, JSON, XML",
-    "Grafana, RestAPI, Git, Docker",
-    "Signal processing and machine learning",
-    "Behavior modeling from data",
-    "System analysis (P&ID, FMEA, HAZOP)",
-    "Project management in international remote teams"
+    [
+      "Python (Jupyter, pandas, scikit-learn, streamlit)",
+      "C#, SQL, JSON, XML",
+      "Grafana, RestAPI, Git, Docker",
+      "Signal processing and machine learning"
+    ],
+    [
+      "Behavior modeling from data",
+      "System analysis (P&ID, FMEA, HAZOP)",
+      "Project management in international remote teams"
+    ]
   ],
   "languages": ["French – Native", "English – Fluent"],
   "interests": [

@@ -1,7 +1,7 @@
 {
   "name": "David Leon",
-  "title": "Ingénieur en traitement de données industrielles",
-  "photo": "photo.jpg",
+  "title": "Chef de projet technique en traitement de données industrielles",
+  "photo": "photo.png",
   "contact": {
     "email": "dpl.davidleon@gmail.com",
     "phone": "0632412749",
@@ -16,7 +16,7 @@
     "experience": "Parcours Professionnel",
     "education": "Formation"
   },
-  "summary": "Depuis plus de 10 ans, j'analyse les mesures capteurs de systèmes industriels et conçois des solutions permettant de générer des indicateurs métier à forte valeur ajoutée, disponibles en temps réel pour les décideurs.",
+  "summary": "Depuis plus de 10 ans, j'analyse les mesures capteurs de différents systèmes industriels et met en place les briques fonctionnelles permettant de construire et de mettre à disposition aux bonnes personnes et au bon moment des indicateurs métier de haute valeur ajoutée.",
   "skills": [
     "Python (Jupyter, pandas, scikit-learn, streamlit)",
     "C#, SQL, JSON, XML",
