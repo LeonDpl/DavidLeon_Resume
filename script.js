@@ -11,10 +11,11 @@ async function loadResume(lang) {
     <h3>${data.title}</h3>
   `;
 
-  document.getElementById('summary').innerHTML = `
-    <h2>${data.labels.profile}</h2>
-    <p>${data.summary}</p>
-  `;
+  if (showPhoto && data.photo) {
+    document.getElementById('photoContainer').innerHTML = `<img src="${data.photo}" alt="Profile Photo">`;
+  } else {
+    document.getElementById('photoContainer').innerHTML = '';
+  }
 
   document.getElementById('contact').innerHTML = `
     <h2>${data.labels.contact}</h2>
@@ -23,11 +24,10 @@ async function loadResume(lang) {
     <p><a href="${data.contact.linkedin}" target="_blank">LinkedIn</a></p>
   `;
 
-  if (showPhoto && data.photo) {
-    document.getElementById('photoContainer').innerHTML = `<img src="${data.photo}" alt="Profile Photo">`;
-  } else {
-    document.getElementById('photoContainer').innerHTML = '';
-  }
+  document.getElementById('summary').innerHTML = `
+    <h2>${data.labels.profile}</h2>
+    <p>${data.summary}</p>
+  `;
 
   document.getElementById('skills').innerHTML = `
     <h2>${data.labels.skills}</h2>
